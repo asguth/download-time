@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css"> 
+    <title>Download File Speed</title>
+</head>
+<body>
+   
+    <div class="container">
+        <div class="first-step">
+            <h3>Calculadora de Download</h3>
+            <br>
+            <label for="tamanho">Tamanho do Arquivo</label><br>
+            <input type="number" id="tamanho" name="tamanho" placeholder="GB">
+            <br><br>
+            <label for="velocidade">Velocidade da Conexão</label><br>
+            <input type="number" id="velocidade" name="velocidade" placeholder="Mbps" >
+            <br><br>
+            <div class="result" style="display:none;">
+                <label for="tempo">Tempo estimado:</label>
+                <input type="text" id="tempo" name="tempo" readonly>
+              </div>
+            
+        </div>
+        <button>Calcular</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
